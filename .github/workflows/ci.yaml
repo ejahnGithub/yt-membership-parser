@@ -118,7 +118,7 @@ jobs:
       id-token: write
       attestations: write
     env:
-      IMAGE_FULL_NAME: ghcr.io/${{ github.repository }}
+      IMAGE_FULL_NAME: ghcr.io/ejahngithub/yt-membership-parser
     steps:
       - name: Checkout
         uses: actions/checkout@v4
